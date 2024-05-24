@@ -1,0 +1,109 @@
+body {
+  background-color: #f4f2f3;
+  font-family: "Courier New", Courier, monospace;
+}
+
+a {
+  color: #cf4b73;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 37px;
+  line-height: 1.5;
+  color: #a80742;
+}
+
+.form-container {
+  background-color: #f2d2d8;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(245, 227, 230, 0.8);
+  padding: 15px 20px;
+}
+
+form {
+  display: flex;
+}
+
+.hint {
+  line-height: 1.5;
+  margin-top: 5px;
+  opacity: 0.6;
+  font-size: 12px;
+}
+
+.instruction {
+  padding: 16px;
+  border: 1px solid rgba(245, 227, 230, 0.8);
+  width: 80%;
+  border-radius: 50px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #290b07;
+}
+
+.submit-button {
+  margin-left: 10px;
+  background-color: #d80f55;
+  border: none;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 14px 24px;
+  color: white;
+}
+
+.desserts {
+  font-size: 16px;
+  background-color: #fcfcfc;
+  padding: 20px;
+  line-height: 24px;
+  border-left: 3px solid #9b073f;
+  box-shadow: 0px 4px 30px 0px rgba(245, 227, 230, 0.8);
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 30px;
+  color: black;
+}
+
+.generating {
+  animation: blink 1s step(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.logo {
+  font-size: 2em;
+  color: #fff;
+  user-select: none;
+  width: 250px;
+  margin: auto;
+  display: block;
+}
