@@ -85,7 +85,7 @@ footer {
 }
 
 .generating {
-  animation: blink 1s step(5, start) infinite;
+  animation: blink-animation 1s steps(5, start) infinite;
 }
 
 @keyframes blink-animation {
@@ -106,4 +106,5 @@ footer {
   width: 250px;
   margin: auto;
   display: block;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
 }
